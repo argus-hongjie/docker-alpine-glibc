@@ -1,5 +1,4 @@
 FROM alpine:3.4
-MAINTAINER Elifarley <elifarley@gmail.com>
 ENV \
   BASE_IMAGE=alpine:3.4 \
   LANG=C.UTF-8
