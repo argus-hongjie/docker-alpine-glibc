@@ -3,7 +3,7 @@ ENV \
   BASE_IMAGE=alpine:3.4 \
   LANG=C.UTF-8
 
-RUN apk --no-cache add ca-certificates curl && \
+RUN apk --update add ca-certificates curl && \
 curl -fsSL https://raw.githubusercontent.com/elifarley/cross-installer/master/install.sh | sh && \
   xinstall add glibc && \
   xinstall save-image-info && \
