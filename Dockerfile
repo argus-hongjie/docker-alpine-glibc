@@ -1,6 +1,6 @@
-FROM alpine:3.4
+FROM alpine:3.5
 ENV \
-  BASE_IMAGE=alpine:3.4 \
+  BASE_IMAGE=alpine:3.5 \
   LANG=C.UTF-8
 
 RUN apk --update add ca-certificates curl && \
